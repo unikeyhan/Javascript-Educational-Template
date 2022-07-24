@@ -1,0 +1,160 @@
+/*start footer section styles */
+footer.footer-section-wrapper {
+    background-color: #041121;
+    min-height: 300px;
+    color: wheat;
+    text-align: right;
+}
+.footer-section-wrapper .desc a i {
+    color: peru;
+    font-size: 38px;
+    transform: rotate(-18deg);
+    padding-left: 14px;
+}
+.footer-section-wrapper .desc div a {
+    color: wheat;
+    font-size: 18px;
+    padding-right: 14px;
+    width: 100%;
+}
+.footer-section-wrapper .desc div.desc-div {
+    border-bottom: 1px solid #0a1d33;
+}
+/* .footer-sec {
+    border: 1px solid wheat;
+} */
+.copy-right {
+    color: rgb(131, 122, 105);
+    text-align: center;
+    border-top: 2px dashed orange;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.footer-section-wrapper .desc {
+    padding: 14px;
+}
+.footer-section-wrapper .desc p {
+    font-size: 16px;
+    margin-top: 14px;
+    color: rgb(131, 122, 105);
+    text-align: justify;
+}
+.footer-section-wrapper .service , .caontact-us , .call-me-footer {
+    color: wheat;
+    padding: 31.5px 14px;
+}
+.footer-section-wrapper .service h6 , .caontact-us h6 , .call-me-footer h6{
+    font-size: 18px;
+    border-bottom: 1px solid #0a1d33;
+    padding-bottom: 11px;
+}
+.footer-section-wrapper .service ul {
+    font-size: 16px;
+    padding-top: 11px;
+}
+.footer-section-wrapper .service ul a {
+    color: rgb(131, 122, 105);
+    transition: all 1s ;
+}
+.footer-section-wrapper .service ul a:hover {
+    color: yellow;
+    padding-right: 10px;
+}
+.footer-section-wrapper .service ul li {
+    margin-bottom: 10px;
+}
+.footer-section-wrapper .service ul li ::before {
+    content: "\276f";
+    color: wheat;
+    vertical-align: -1px;
+    padding-left: 10px;
+}
+.footer-section-wrapper  .caontact-us ul{
+    text-align: left;
+}
+.footer-section-wrapper  .caontact-us ul a {
+    color: wheat;
+}
+.caontact-us ul a i.telegram:hover {
+    color: rgb(0, 136, 204);
+}
+.caontact-us a i.instagram {
+    font-size: 20px;
+}
+.caontact-us a i.instagram:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+.caontact-us a i.facebook:hover {
+    color:#fff;
+    color: rgb(59, 89, 152);
+}
+.caontact-us a i.twitter:hover {
+    color: rgb(8, 160, 233);
+}
+.caontact-us a i.rss:hover {
+    color: rgb(238, 128, 47);
+}
+.caontact-us .contact-icons {
+    transition: all .5s ease-in;
+    padding: 3px 5px;
+    margin: 7px 9px;
+}
+.caontact-us .contact-icons:hover {
+    transform: scale(1.35);
+}
+.caontact-us form [type="text"] {
+    height: 42px;
+    width: 70%;
+    padding: 10px;
+    margin-top: 15px;
+    outline: none;
+    
+}
+.caontact-us form .sub-news {
+    top: 15px;
+    left: 13px;
+    border: none;
+    background-color: peru;
+    color: #fff;
+    height: 42px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+.caontact-us form .sub-news:hover {
+    background-color: orange;
+    border-radius: 5px 0 0 5px;
+    padding: 10px 10px 10px 9px;
+}
+
+.contact-us-tit {
+    margin-top: 50px;
+}
+.footer-section-wrapper .call-me-footer li {
+    text-align: left;
+    line-height: 40px;
+}
+.footer-section-wrapper .call-me-footer li span {
+color: rgb(131, 122, 105);
+transition: all .5s ease;
+font-size: 14px;
+padding-left: 10px;
+}
+.footer-section-wrapper .call-me-footer ul li span:hover {
+    color: wheat;
+}
+.footer-section-wrapper .call-me-footer li i {
+    color: wheat;
+}
+.location-footer {
+    text-align: right!important;
+}
+.location-footer span {
+    line-height: 40px;
+    padding-right: 10px;
+}

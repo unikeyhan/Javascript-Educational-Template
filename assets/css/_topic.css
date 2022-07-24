@@ -1,0 +1,89 @@
+/*start topic section styles */
+
+.title-topic-section span {
+    position: relative;
+    display: inline-block;
+}
+.title-topic-section span::before {
+    content: '';
+    width: 40px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    right: 180px;
+    top: 12px;
+}
+.title-topic-section span::after {
+    content: '';
+    width: 40px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    left: 180px;
+    top: 12px;
+}
+
+.topic-section-wrapper {
+    background-image: url('/assets/img/png-images-for-website-background-12.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+.topic-section-wrapper .card-header {
+    overflow: hidden;
+}
+.topic-section-wrapper .card-header img {
+    transition: all .7s ease;
+}
+.topic-section-wrapper .card:hover img {
+    transform: scale(1.4)  rotate(10deg);
+}
+.topic-section-wrapper .card {
+    box-shadow: 1px 5px 15px 2px rgba(68, 102, 242, .1)!important;
+}
+.topic-section-wrapper .card-body {
+    margin: 32px 5px;
+}
+.topic-section-wrapper .card-body a {
+    font-size: 14px;
+    padding: 5px;
+}
+.post-date {
+    top: -66px;
+    right: 20px;
+    width: 45px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+
+.post-date div:first-child {
+    background-color: orange;
+}
+.post-date div:last-child {
+    background-color: #bba4a4;
+}
+.topic-section-wrapper .card-body p {
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 15px;
+    line-height: 24px;
+    color: rgb(68, 61, 61);
+}
+.topic-section-wrapper .card-footer ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.topic-section-wrapper .card-footer ul {
+    border-top: 1px solid #efefef;
+    text-align: center;
+}
+.topic-section-wrapper .card-footer ul li i{
+    color: #c9c5c5;
+    font-size: 15px;
+    
+}
+.topic-section-wrapper .card-footer ul li span {
+    color: #a1a1a7;
+    font-size: 15px;
+}

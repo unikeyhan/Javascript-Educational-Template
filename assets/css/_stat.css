@@ -1,0 +1,19 @@
+/*start stat section styles */
+.stat-section-wrapper {
+    background-color: #ffc412;
+    min-height: 250px;
+    margin-top: 250px;
+    text-align: center;
+}
+.stat-section-wrapper .count-img {
+    width: 50px;
+    margin-top: 25px;
+}
+.stat-section-wrapper .count {
+    color: #fff;
+    font-size: 26px;
+    margin: 30px
+}
+.stat-section-wrapper .count-title {
+    font-size: 18px;
+}

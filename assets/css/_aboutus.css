@@ -1,0 +1,68 @@
+/*start about us section styles */
+.aboutus-title span {
+    position: relative;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    margin: 20px 0 0 0;;
+}
+.aboutus-title span.aboutus-title {
+    color: black;
+}
+.aboutus-title span::before {
+    content: '';
+    width: 40px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    right: 90px;
+    top: 12px;
+}
+.aboutus-title span::after {
+    content: '';
+    width: 40px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    left: 90px;
+    top: 12px;
+}
+.about-us-left-side {
+    background-color: #efefef;
+    padding: 60px;
+   left: 0;
+}
+.about-us-left-side h4 {
+    border-bottom: 1px solid #b3adad;
+    padding-bottom: 18px;
+    color: rgb(44, 43, 43);
+    font-size: 20px;
+
+}
+.about-us-left-side p{
+    padding: 10px;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: rgb(76, 71, 71);
+}
+.about-us-left-side a{
+    background-color: rgba(87, 65, 87, 0.9);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    float: left;
+    padding: 5px 10px;
+    transition: all .5s ease;
+}
+.about-us-left-side a:hover {
+    border-radius: 0 12px 0 12px;
+    background-color: rgba(124, 10, 124, 0.7);
+}
+
+@media all and (max-width:992px) {
+    .about-us-right-side img {
+        display: none;
+    }
+    .about-us-left-side {
+        width: 100%!important;
+    }
+}

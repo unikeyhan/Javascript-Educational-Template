@@ -1,0 +1,93 @@
+/*start contact section styles */
+
+.container-fluid-custom {
+    background-color: #041121;
+    color: #fff;
+    height: 40px;
+}
+
+.container-fluid-custom .contact span {
+    vertical-align: -10px;
+    color: #fff;
+    margin-left: -9px;
+    font-size: 15px;
+}
+.container-fluid-custom #mail-me ,#call-me {
+    transition: all .5s linear;
+    margin: 0 15px;
+    color: orange;
+    vertical-align: -10px;
+}
+
+#mail-me:hover, #call-me:hover {
+    transform: scale(1.5);
+    background-color: orange;
+    color: #fff;
+    padding: 2px;
+    margin: 0 13px;
+    border-radius: 30%;
+}
+
+.container-fluid-custom .social-media {
+    direction: ltr;
+    vertical-align: -10px;
+}
+
+.container-fluid-custom .social-media i{ 
+    vertical-align: -10px;
+    margin:0 15px;
+    transition: all .5s linear;
+}
+.container-fluid-custom .social-media a {
+    color: #fff;
+}
+.container-fluid-custom .social-media i:hover {
+    transform: scale(1.5);
+
+}
+.social-media #telegram:hover {
+    color: rgb(0, 136, 204);
+    background-color: #fff;
+    padding: 2px;
+    margin: 0 13px;
+    border-radius: 30%;
+}
+.social-media #instagram:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.7);
+    }
+.social-media #facebook:hover {
+    color:#fff;
+    background-color: rgb(59, 89, 152);
+    padding: 3px;
+    margin: 0 12px;
+    border-radius: 30%;
+}
+.social-media #twitter:hover {
+    color: rgb(8, 160, 233);
+}
+.social-media #rss:hover {
+    color: rgb(238, 128, 47);
+}
+.container-fluid-custom {
+    position: relative;
+}
+/* .container-fluid-custom span.contact-anime {
+    content: '';
+    width: 3px;
+    height: 100%;
+    background-color: orange;
+    padding-right: 3px;
+    left: 0;
+    position: absolute;
+    animation: contact-anime 8s linear infinite alternate;
+}
+@keyframes contact-anime {
+    100% {
+        transform: translateX(1400px)
+    }
+} */
+/*end contact section styles */

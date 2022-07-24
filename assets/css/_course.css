@@ -1,0 +1,111 @@
+/*end course section styles */
+.section-title span {
+    position: relative;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    margin: 20px 0 0 0;;
+}
+.section-title span::before {
+    content: '';
+    width: 40px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    right: 115px;
+    top: 12px;
+}
+.section-title span::after {
+    content: '';
+    width: 40px;
+    height: 3px;
+    background-color: orange;
+    position: absolute;
+    left: 115px;
+    top: 12px;
+}
+.card {
+    cursor: pointer;
+    margin-bottom: 18px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin: 20px;
+}
+.card-header img.course-1 {
+    box-shadow: .5px .5px 3px .5px #c2a8a8;
+    display: block;
+    border-radius: 8px;
+}
+
+.card-header img.course-1:hover {
+    box-shadow: .5px .5px 3px 1.5px #947878;
+    transition: all .5s;
+}
+.card-body img {
+    width: 40px;
+    height: 40px;
+    margin: 5px 5px 0 0;
+    /* filter: brightness(.89);
+    filter: grayscale(.4); */
+}
+
+.card-body div.course-title {
+margin-right: 77px;
+}
+.card-body div.course-title a {
+    font-size: 16px;
+}
+.card-body div.course-title p {
+    font-size: 14px;
+    color: #947878;
+}
+.card-header .card-overlay {
+    background-color: rgba(24, 14, 9, 0.342);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    border-radius: 8px;
+}
+.card:hover .card-overlay {
+    opacity: 1;
+    transition:all 1s ease;
+}
+.card .card-overlay p {
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.course-section {
+ background-position: top;
+ background-attachment: fixed;
+ background-image: url(../img/back6.jpg);
+}
+
+ @media all and (min-width: 750px) and (max-width: 900px) {
+
+    div.card div.course-title p {
+    font-size: 12px;
+
+    }
+    div.card div.course-title a {
+        font-size: 13px;
+    }
+    div.card {
+        margin: 10px 0;
+    }
+}
+div.jva-script p.jva-script {
+    white-space: nowrap;
+    overflow: hidden;
+}
+/* @media all and (min-width: 883px) and (max-width: 900px) {
+    div.jva-script p.jva-script {
+        border: 1px solid black;
+        width: 200px;
+        white-space: nowrap;
+        overflow: auto;
+    }
+} */
+/*end course section styles */
